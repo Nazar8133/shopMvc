@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc4af957-681f-4b88-8f5d-e03f86167ab3" name="shopMvc" url="http://shopMvc">
+        <fileTransfer mountedRoot="D:\OSPanel\domains\shopMvc" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

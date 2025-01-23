@@ -1,0 +1,12 @@
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-left, .table-right {
+    width: 45%; /* Ширина кожної таблиці */
+}
+
+table {
+    width: 100%;
+}

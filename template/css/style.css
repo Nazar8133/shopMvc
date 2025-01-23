@@ -1,0 +1,103 @@
+.pagination-wrapper {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.pagination {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.pagination tr th, .pagination tr th a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 15px; /* Округлення країв */
+    background-color: #f9f9f9;
+}
+
+.pagination tr th.activepage {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+
+.product-image {
+    width: 100%; /* Ширина зображення заповнює контейнер */
+    height: 200px; /* Висота зображення */
+    object-fit: cover; /* Масштабування і обрізка зображення, щоб воно повністю заповнило контейнер */
+    border: 1px solid #ddd; /* Додавання рамки до зображення */
+    border-radius: 10px; /* Округлення країв */
+}
+
+.product-details {
+    height: 80px; /* Висота контейнера з текстом */
+    overflow: hidden; /* Приховування зайвого тексту */
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px 0; /* Відступи для заголовка */
+}
+
+.sort-wrapper {
+    text-align: right;
+    margin-bottom: 20px; /* Відступ знизу для відокремлення від товарів */
+    display: flex;
+    justify-content: flex-end; /* Вирівнювання елементів справа */
+    align-items: center; /* Вертикальне вирівнювання елементів */
+}
+
+.sort-text {
+    margin-right: 10px; /* Відступ між текстом і кнопками */
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sort-buttons {
+    display: flex;
+}
+
+.sort-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-left: 10px; /* Відступ між кнопками */
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px; /* Округлення країв */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.sort-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-table {
+    width: 100%; /* Ширина таблиці */
+    max-width: 800px; /* Максимальна ширина таблиці */
+    margin: 0 auto; /* Центрування таблиці */
+}
+
+.product-table th, .product-table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle; /* Вертикальне вирівнювання по центру */
+}
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+    transform: translateX(40px); /* Зсув контейнера на 50px праворуч */
+}
+
